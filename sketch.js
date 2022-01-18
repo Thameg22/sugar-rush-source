@@ -1,8 +1,8 @@
 var pusheen, catrunning, donut, donutImg, donutGroup;
 var background1;
 function preload(){
-  catrunning = loadAnimation("sprites/pw1.png","sprites/pw2.png",
-  "sprites/pw3.png","sprites/pw4.png")
+  catrunning = loadAnimation("pw1.png","pw2.png",
+  "pw3.png","pw4.png")
   background1 = loadImage("bg1.png")
   donutImg = loadImage("donut.png");
   // background1 = loadImage("bg.png");
